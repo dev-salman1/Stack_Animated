@@ -9,7 +9,7 @@ const getRandomColor = (): string => {
 
 // Function to generate a random width
 const getRandomWidth = (): number => {
-  return Math.floor(Math.random() * (120 - 90 + 1)) + 90; // Random width between 50 and 180
+  return Math.floor(Math.random() * (140 - 80 + 1)) + 80; // Random width between 50 and 180
 };
 
 export { getRandomColor, getRandomWidth };

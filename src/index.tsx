@@ -127,8 +127,9 @@ const styles = StyleSheet.create({
     borderCurve: "continuous",
     borderWidth: 1,
     position: "absolute",
-    padding: 10,
-    overflow:'hidden'
+    paddingHorizontal: 10,
+    paddingVertical: 20,
+    overflow: "hidden",
   },
   view: {
     height: 12,
